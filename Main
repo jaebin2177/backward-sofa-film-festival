@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Backward Sofa Film Festival</title>
+    <style>
+      /* CSS 스타일을 적용합니다. */
+      /* 홈페이지 전체에 대한 스타일 */
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+      }
+      /* 페이지 상단에 위치한 로고와 메뉴를 감싸는 div 태그의 스타일 */
+      .header {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      /* 로고 이미지 태그의 스타일 */
+      .logo {
+        width: 120px;
+      }
+      /* 메뉴를 감싸는 ul 태그의 스타일 */
+      .menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      /* 메뉴 아이템 li 태그의 스타일 */
+      .menu li {
+        margin-left: 20px;
+      }
+      /* 배너에 대한 스타일 */
+      .banner {
+        background-color: white;
+        padding: 40px;
+        text-align: center;
+      }
+      /* 영화 리스트 ul 태그의 스타일 */
+      .movies {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 40px auto;
+        max-width: 1200px;
+        padding: 0;
+      }
+      /* 영화 포스터 이미지 태그의 스타일 */
+      .movie-poster {
+        height: 350px;
+        object-fit: cover;
+        width: 100%;
+      }
+      /* 영화 제목 h3 태그의 스타일 */
+      .movie-title {
+        margin-top: 10px;
+      }
+      /* 영화 정보 div 태그의 스타일 */
+      .movie-info {
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 20px;
+        text-align: center;
+      }
+      /* 푸터에 대한 스타일 */
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 상단 메뉴와 로고를 감싸는 div 태그 -->
+    <div class="header">
+      <!-- 로고 이미지 -->
+      <img class="logo" src="logo.png" alt="Backward Sofa Film Festival" />
+      <!-- 메뉴 아이템 -->
+      <ul class="menu">
+        <li><a href="#">홈</a></li>
+        <li><a href="#">영화제 소개</a></
